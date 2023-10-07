@@ -1,3 +1,4 @@
+import java.lang.Math;
 public class Main {
     public static void main(String[] args) {
         long l;
@@ -15,7 +16,7 @@ public class Main {
         System.out.println("l: " + l);
         System.out.println("s: " + s);
 
-        double y = Math.log(s) + Math.log(1) / Math.log(f) - Math.asin(l);
+        double y = Math.log10(s) + Math.log(f) - Math.asin(l);
         System.out.println("Значення y: " + y);
     }
 }
